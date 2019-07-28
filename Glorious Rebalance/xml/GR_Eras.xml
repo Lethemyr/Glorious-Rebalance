@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/28/2019 11:27:20 AM -->
+<GameData>
+	<Eras>
+		<Update>
+			<Where Type="ERA_ANCIENT"/>
+			<Set>
+				<StartingWorkerUnits>1</StartingWorkerUnits>
+			</Set>
+		</Update>
+	</Eras>
+</GameData>

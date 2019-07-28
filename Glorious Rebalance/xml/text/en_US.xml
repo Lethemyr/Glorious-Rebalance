@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/28/2019 11:35:54 AM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_AGRICULTURE_TITLE"/>
+			<Set>
+				<Text>Civilization</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ARCHERY_TITLE"/>
+			<Set>
+				<Text>Miltiae</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_HORSEBACK_RIDING_TITLE"/>
+			<Set>
+				<Text>Stables</Text>
+			</Set>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_RAIDER">
+			<Text>Raider</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

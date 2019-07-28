@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/28/2019 11:37:00 AM -->
+<GameData>
+	<Builds>
+		<Update>
+			<Where Type="BUILD_REMOVE_JUNGLE"/>
+			<Set>
+				<PrereqTech>TECH_MINING</PrereqTech>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILD_REMOVE_MARSH"/>
+			<Set>
+				<PrereqTech>TECH_MINING</PrereqTech>
+			</Set>
+		</Update>
+	</Builds>
+	<BuildFeatures>
+		<Update>
+			<Where FeatureType="FEATURE_JUNGLE" Remove="true"/>
+			<Set>
+				<PrereqTech>TECH_MINING</PrereqTech>
+			</Set>
+		</Update>
+		<Update>
+			<Where FeatureType="FEATURE_MARSH" Remove="true"/>
+			<Set>
+				<PrereqTech>TECH_MINING</PrereqTech>
+			</Set>
+		</Update>
+	</BuildFeatures>
+</GameData>

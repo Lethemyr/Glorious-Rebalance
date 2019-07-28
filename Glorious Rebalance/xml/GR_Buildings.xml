@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/28/2019 11:26:38 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_SHRINE"/>
+			<Set>
+				<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			</Set>
+		</Update>
+	</Buildings>
+</GameData>
