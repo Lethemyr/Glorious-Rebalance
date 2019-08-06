@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/2/2019 9:18:18 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Where Type="POLICY_LIBERTY"/>
+			<Set>
+				<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="POLICY_WARRIOR_CODE"/>
+			<Set>
+				<ExpModifier>50</ExpModifier>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="POLICY_MILITARY_TRADITION"/>
+			<Set>
+				<WoundedUnitDamageMod>10</WoundedUnitDamageMod>
+				<ExpModifier>0</ExpModifier>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_UnitCombatProductionModifiers>
+		<Delete PolicyType="POLICY_WARRIOR_CODE"/>
+		<Row>
+			<PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+	</Policy_UnitCombatProductionModifiers>
+	<Policy_FreeUnitClasses>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
+			<Count>1</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+	<Policy_BuildingClassCultureChanges>
+		<Row>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<CultureChange>4</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+	</Policy_BuildingClassCultureChanges>
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_CityYieldChanges>
+</GameData>

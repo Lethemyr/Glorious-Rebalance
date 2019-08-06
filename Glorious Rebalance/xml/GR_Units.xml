@@ -2,40 +2,38 @@
 <!-- Created by ModBuddy on 7/28/2019 11:27:05 AM -->
 <GameData>
 	<Units>
-		<Units>
-			<Update>
-				<Where Class="UNITCLASS_WARRIOR"/>
-				<Set>
-					<PrereqTech>TECH_ARCHERY</PrereqTech>
-				</Set>
-			</Update>
-			<Update>
-				<Where Class="UNITCLASS_HORSEMAN"/>
-				<Set>
-					<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
-				</Set>
-			</Update>
-			<Update>
-				<Where Type="UNIT_HORSEMAN"/>
-				<Set>
-					<Cost>60</Cost>
-				</Set>
-			</Update>
-			<Update>
-				<Where Type="UNIT_BARBARIAN_HORSEMAN"/>
-				<Set>
-					<PrereqTech>TECH_THE_WHEEL</PrereqTech>
-					<Cost>60</Cost>
-					<Description>TXT_KEY_UNIT_RAIDER</Description>
-					<ShowInPedia>false</ShowInPedia>
-				</Set>
-			</Update>
-			<Update>
-				<Where Type="UNIT_BARBARIAN_WARRIOR"/>
-				<Set>
-					<PrereqTech>TECH_AGRICULTURE</PrereqTech>
-				</Set>
-			</Update>
-		</Units>
+		<Update>
+			<Where Class="UNITCLASS_WARRIOR"/>
+			<Set>
+				<PrereqTech>TECH_ARCHERY</PrereqTech>
+			</Set>
+		</Update>
+		<Update>
+			<Where Class="UNITCLASS_HORSEMAN"/>
+			<Set>
+				<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_HORSEMAN"/>
+			<Set>
+				<Cost>60</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_BARBARIAN_HORSEMAN"/>
+			<Set>
+				<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+				<Cost>60</Cost>
+				<Description>TXT_KEY_UNIT_RAIDER</Description>
+				<ShowInPedia>false</ShowInPedia>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_BARBARIAN_WARRIOR"/>
+			<Set>
+				<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			</Set>
+		</Update>
 	</Units>
 </GameData>

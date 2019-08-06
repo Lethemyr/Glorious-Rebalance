@@ -23,5 +23,41 @@
 		<Row Tag="TXT_KEY_UNIT_RAIDER">
 			<Text>Raider</Text>
 		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Liberty[ENDCOLOR] is best for civilizations which desire rapid expansion.[NEWLINE][NEWLINE]Adopting Liberty will provide 1 [ICON_CULTURE] Culture in every city and a Scout appears outside of your [ICON_CAPITAL] capital. Unlocks building the Pyramids.[NEWLINE][NEWLINE]Adopting all policies in the Liberty tree will grant a free Great Person of your choice near the [ICON_CAPITAL] Capital.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_REPUBLIC_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Republic[ENDCOLOR]+1 [ICON_PRODUCTION] Production and +1 [ICON_FOOD] Food in every City and +5% [ICON_PRODUCTION] Production in cities when constructing buildings.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_REPRESENTATION_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Representation[ENDCOLOR][NEWLINE]Each city you found will increase the [ICON_CULTURE] Culture cost of policies by 33% less than normal, libraries now provide +1 [ICON_CULTURE] Culture. Also starts a [ICON_GOLDEN_AGE] Golden Age.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR][NEWLINE]Military Units gain 50% more Experience from Combat and a Great General appers outside of the [ICON_CAPITAL] capital. Great Generals are earned 50% faster.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MILITARY_TRADITION_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when training Melee units and Wounded Military Units inflict 10% more damage than normal.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of upgrading Military Units reduced by 33% and construct Barracks, Armories, and Military Academies 50% faster. Court Houses now provide +4 [ICON_HAPPINESS_1] happiness and +4 [ICON_CULTURE] culture.</Text>
+			</Set>
+		</Update>
 	</Language_en_US>
 </GameData>

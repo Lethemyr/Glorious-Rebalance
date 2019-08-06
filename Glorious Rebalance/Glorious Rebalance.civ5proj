@@ -62,6 +62,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>xml/GR_Units.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>xml/GR_Policies.xml</FileName>
+      </Action>
     </ModActions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -98,6 +103,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="xml\GR_Leaders.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="xml\GR_Policies.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
